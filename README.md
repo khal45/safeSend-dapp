@@ -19,6 +19,7 @@ Traditional wallets are vulnerable to address poisoning attacks. SafeSend elimin
     - [Estimate gas](#estimate-gas)
   - [Formatting](#formatting)
   - [Compatibilities](#compatibilities)
+  - [Roles](#roles)
   - [Known Issues](#known-issues)
   - [Future Developments](#future-developments)
 
@@ -112,6 +113,10 @@ forge fmt
 
 - solc version: 0.8.30
 - Chain(s) to deploy contract to: Ethereum
+
+## Roles
+
+Owner - The user of the protocol, only the owner can add an address to the whitelist and send eth or erc20 tokens to them
 
 ## Known Issues
 
